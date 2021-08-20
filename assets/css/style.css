@@ -11,6 +11,26 @@ html{
     height: 46px;
     background-color: black;
     position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav .fas{
+    padding: 0 0 0 12px;
+}
+#header .search-btn{
+    float: right;
+    line-height: 46px;
+    cursor: pointer;
+}
+#header .nav-search{
+    color:white;
+    padding: 0 20px;
+}
+#header .search-btn:hover{
+    background-color: red;
 }
 #nav > li{
     display: inline-block;
@@ -33,7 +53,7 @@ html{
     line-height: 46px;
 }
 #nav > li > a{
-    color: pink;
+    color: white;
     text-transform: uppercase;
 }
 #nav #navbar{
@@ -54,4 +74,28 @@ html{
 }
 #nav #navbar li{
     list-style: none;
+}
+
+#slide{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/assets/img/img_la.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text-content{
+    position: absolute;
+    color: white;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+}
+.text-content h2{
+    font-weight: 500;
+    margin: 20px;
+}
+.text-content p{
+    font-weight: 400;
+    font-size: 18px;
 }
