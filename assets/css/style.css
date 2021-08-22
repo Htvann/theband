@@ -99,11 +99,15 @@ html{
     font-weight: 400;
     font-size: 18px;
 }
-#content .content-section{
-    padding: 64px 16px;
+#content{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding: 64px 16px;
+}
+#content .content-section{
+    padding: 64px 16px 0;
+    
 }
 #content .content-section .section-heading{
     text-align: center;
@@ -126,4 +130,20 @@ html{
     margin: 15px 0;
     line-height: 22.5px;
     text-align: justify;
+}
+.member-list{
+    padding: 32px 0;
+}
+.member-items{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+}
+.member-items .member-name{
+    margin: 15px 0;
+}
+.member-items-img{
+    width: 60%;
+    margin: 0 0 80px;
+    border-radius: 10px;
 }
