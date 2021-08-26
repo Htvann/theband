@@ -243,3 +243,78 @@ html{
     color: black;
     cursor: pointer;
 }
+
+.row{
+
+}
+.col{
+
+}
+.col-left{
+
+}
+.col-right{
+
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modal-container{
+    background-color: white;
+    width: 900px;
+    min-height: 200px;
+}
+.modal-header{
+    width: 900px;
+    min-height: 130px;
+    background-color: rgb(0,150,136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-header > i{
+    margin: 0 16px 0 0;
+    font-size: 30px;
+    color: white;
+}
+.modal-header h1{
+    margin: 10px 0;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.modal-close{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    padding: 8px 16px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.modal-close:hover{
+    color: red;
+}
+.modal-body{
+    padding: 0 16px 16px 16px;
+}
+.modal-lable{
+    display: inline;
+}
+.modal-body .modal-footer{
+    margin: 15px 0;
+}
